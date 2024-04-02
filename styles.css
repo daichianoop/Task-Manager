@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #efe6dd;
+    font-size: 20px;
+    background-image: url(Img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  
+  .todo-grid {
+    display: grid;
+    grid-template-columns: 220px 235px 90px 150px;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items: center;
+    color: #f1ffe1;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.5s;
+  }
+  .todo-grid:hover{
+    background-color: rgba(0, 0, 0, 0.45);
+    color: whitesmoke;
+    cursor: cell;
+  }
+  .all-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .todoInput {
+    width: 225px;
+    height: 30px;
+  }
+  .due-time{
+    width: 85px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right:18px;
+  }
+  .duedate {
+    width: 180px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  .todo-grid {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px 15px;
+  }
+  .todo-input-grid {
+    margin-bottom: 20px;
+  }
+  .todoInput,
+  .duedate ,.due-time{
+    font-size: 18px;
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.726);
+    border: none;
+  }
+  .task {
+    font-size: 18px;
+  }
+  .add {
+    background-color: rgb(52, 164, 52);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: cell;
+    padding: 10px 0px;
+    width: 140px;
+    height: 48px;
+    margin-left: 20px;
+    transition: background-color 0.4s;
+  }
+  .add:hover {
+    background-color: rgba(39, 121, 39, 0.658);
+  }
+  .delete {
+    background-color: #a9a587;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 0px;
+    transition: background-color 0.4s;
+  }
+  .delete:hover {
+    background-color: rgba(216, 45, 45, 0.333);
+  }
+  .main-flex {
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    border: solid;
+    padding: 0px 15px 15px 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.084);
+    border-color: rgba(107, 107, 100, 0.253);
+    border-width: 5px;
+    border-style: outset;
+  }
+  .dd {
+    color: #ede6e3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .dt{
+    color: darkorange;
+  }
+  .bg-change-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .bg-button1,.bg-button2,.bg-button3,.bg-button4,.bg-button5,.bg-button6,
+    .bg-button7,.bg-button0{
+    width: 120px;
+    height: 80px;
+    margin: 0px 5px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.805);
+    border: none;
+    cursor: wait;
+    object-fit: cover;
+  }
+  img{
+    width: 118px;
+    height: 60px;
+  } 

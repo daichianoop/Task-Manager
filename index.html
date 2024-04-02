@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Manager for Windows</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="body-bg" style="">
+    <div class="bg-change-buttons">
+      <button class="bg-button0" onclick="bg0()">
+        <img src="Img/0.jpg" alt="">
+        Cityscape
+      </button>
+      <button class="bg-button1" onclick="bg1()">
+      <img src="Img/1.jpg" alt="">
+      Mountains-1
+    </button>
+      <button class="bg-button2" onclick="bg2()">
+      <img src="Img/2.jpg" alt="">
+      Mountains-2
+    </button>
+      <button class="bg-button3" onclick="bg3()">
+        <img src="Img/3.jpg" alt="">
+        Plains
+      </button>
+      <button class="bg-button4" onclick="bg4()">
+        <img src="Img/4.jpg" alt="">  
+        Shore
+      </button>
+      <button class="bg-button5" onclick="bg5()">
+        <img src="Img/5.jpg" alt="">
+        Architecture
+      </button>
+      <button class="bg-button6" onclick="bg6()">
+        <img src="Img/6.jpg" alt="">
+        Palace
+    </button>
+      <button class="bg-button7" onclick="bg7()">
+        <img src="Img/7.jpg" alt="">
+        Berries
+      </button>
+    </div>
+    <div class="main-flex">
+      <div class="main">
+        <h1>Tasks</h1>
+        <div class="all-input">
+          <input type="text" placeholder="Enter Task ..." class="todoInput" />
+          <input type="date" class="js-due-date-input duedate" />
+          <input type="time" class="due-time">
+          <button onclick="addTodo()" class="add">Add Task</button>
+        </div>
+        <div class="js-todo-list todo-grid"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
